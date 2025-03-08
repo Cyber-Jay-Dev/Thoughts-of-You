@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../public/pink.webp');
+    background-size: cover;
+    font-family: "Meow Script", cursive;
+}
+
+.header{
+    display: flex;
+    width: 80vw;
+    height: 10vh;
+    background-color: rgba(161, 123, 123, 0.5);
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3vh;
+}
+.header_text{   
+    font-size: 100pt;
+    color: #fafafa;
+    font-weight: normal;
+}
